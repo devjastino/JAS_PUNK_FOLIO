@@ -1,5 +1,20 @@
 @import "tailwindcss";
 
+@font-face {
+  font-family: Bebas;
+  src: url("/fonts/Bebas.ttf"), format("ttf");
+}
+
+@font-face {
+  font-family: Nunito;
+  src: url("/fonts/Nunito.ttf"), format("ttf");
+}
+
+@theme {
+  --font-title: "Bebas";
+  --font-display: "Nunito";
+}
+
 @layer components {
   .hero {
     @apply bg-zinc-950 w-full min-h-screen text-zinc-300 flex-center;
