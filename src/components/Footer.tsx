@@ -1,11 +1,11 @@
 const Footer = () => {
   return (
     <>
-      <footer className="bg-white dark:bg-zinc-900">
+      <footer className="bg-zinc-900">
         <div className="mx-auto w-full max-w-screen-xl p-4 py-6 lg:py-8">
           <div className="md:flex md:justify-between">
             <div className="mb-6 md:mb-0">
-              <a href="https://flowbite.com/" className="flex items-center">
+              <a href="http://jas.webs.vc/" className="flex items-center">
                 <img
                   src="/images/jas_logo.png"
                   className="h-14 me-3"
@@ -20,7 +20,7 @@ const Footer = () => {
                 </h2>
                 <ul className="text-zinc-500 dark:text-zinc-400 font-medium">
                   <li className="mb-4">
-                    <a href="https://flowbite.com/" className="hover:underline">
+                    <a href="http://jas.webs.vc/" className="hover:underline">
                       Flowbite
                     </a>
                   </li>
