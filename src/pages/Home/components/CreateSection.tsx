@@ -7,9 +7,9 @@ const CreateSection = () => {
         What I Create?
       </h1>
       <div className="flex lg:flex-row flex-col lg:gap-4 gap-10 max-w-7xl m-10">
-        {createSectionData.map((res: any) => {
+        {createSectionData.map((res: { title: string; details: string }) => {
           return (
-            <div>
+            <div className="bg-zinc-800 p-8 rounded-lg">
               <h1 className="text-4xl font-title">{res.title}</h1>
               <p className="text-xl text-zinc-300">{res.details}</p>
             </div>

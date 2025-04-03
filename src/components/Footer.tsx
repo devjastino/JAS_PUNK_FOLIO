@@ -1,7 +1,7 @@
 const Footer = () => {
   return (
     <>
-      <footer className="bg-zinc-900">
+      <footer className="bg-zinc-950">
         <div className="mx-auto w-full max-w-screen-xl p-4 py-6 lg:py-8">
           <div className="md:flex md:justify-between">
             <div className="mb-6 md:mb-0">
@@ -79,9 +79,9 @@ const Footer = () => {
           <hr className="my-6 border-zinc-200 sm:mx-auto dark:border-zinc-700 lg:my-8" />
           <div className="sm:flex sm:items-center sm:justify-between">
             <span className="text-sm text-zinc-500 sm:text-center dark:text-zinc-400">
-              © 2023{" "}
+              © 2025{" "}
               <a href="https://flowbite.com/" className="hover:underline">
-                Flowbite™
+                Jas™
               </a>
               . All Rights Reserved.
             </span>

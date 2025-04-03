@@ -1,6 +1,6 @@
 const SectionOne = () => {
   return (
-    <section>
+    <section className="hero bg-zinc-900">
       
     </section>
   )
